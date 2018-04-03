@@ -11,7 +11,8 @@ class ImageDecoderPagerAdapter(
 ) : FragmentStatePagerAdapter(fragmentManager) {
 
     private val items = arrayOf(
-            Item("Logo", SimpleBitmapFragment::class.java)
+            Item("Logo", SimpleBitmapFragment::class.java),
+            Item("Animated", AnimatedDrawableFragment::class.java)
     )
 
     override fun getItem(position: Int): ImageDecoderFragment =
