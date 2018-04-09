@@ -9,7 +9,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 'android-P'
     defaultConfig {
-        applicationId "com.stylingandroid.pimages"
+        applicationId "com.stylingandroid.imagedecoder"
         minSdkVersion 'P'
         targetSdkVersion 'P'
         versionCode 1
