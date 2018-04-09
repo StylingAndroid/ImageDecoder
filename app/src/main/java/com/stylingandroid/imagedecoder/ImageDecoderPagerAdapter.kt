@@ -15,7 +15,8 @@ class ImageDecoderPagerAdapter(
             Item("Animated", AnimatedDrawableFragment::class.java),
             Item("Error", ErrorBitmapFragment::class.java),
             Item("Scale", ScaleDrawableFragment::class.java),
-            Item("Crop", CropDrawableFragment::class.java)
+            Item("Crop", CropDrawableFragment::class.java),
+            Item("Mask", MaskDrawableDecoder::class.java)
     )
 
     override fun getItem(position: Int): ImageDecoderFragment =

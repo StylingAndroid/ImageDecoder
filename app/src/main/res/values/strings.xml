@@ -1,3 +1,4 @@
 <resources>
   <string name="app_name">ImageDecoder</string>
+  <string name="virginia">Image is copyright of Virginia Poltrack and used with permission\n\nwww.virginiapoltrack.com</string>
 </resources>
